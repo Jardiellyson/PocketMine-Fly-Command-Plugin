@@ -1,0 +1,14 @@
+name: FlyPlugin
+version: 1.0.0
+main: fly\Main
+src-namespace-prefix: fly
+api: 5.0.0
+commands:
+  fly:
+    description: Ativar/Desativar o vôo
+    usage: "/fly on/off"
+    permission: fly.command.perm
+permissions:
+  fly.command.perm:
+    description: "Permite o jogador executar o comando /fly"
+    default: true
